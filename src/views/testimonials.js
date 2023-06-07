@@ -100,9 +100,16 @@ const Testimonials = (props) => {
               name="Li"
               role="Customer"
               Title="Very Accurate"
-              quote="Ewa’ card readings are an incredible experience. Even months after her reading, I am still finding such strong connections with the themes of her reading. She is a great psychic, and she is very accurate."
+              quote="Ewa’s card readings are an incredible experience. Even months after her reading, I am still finding such strong connections with the themes of her reading. She is a great psychic, and she is very accurate."
               picture_src="https://media.discordapp.net/attachments/793905506409381919/1110671011877244968/image0.jpg"
               rootClassName="rootClassName2"
+            ></TestimonialCard1>
+            <TestimonialCard1
+              name="Rishabh"
+              role="Customer"
+              quote="A great session with supreme leader of tarot club !! The cards , energy and aura that had in the session, was super great and can't be expressed in words."
+              rootClassName="rootClassName3"
+              picture_src="https://lh3.googleusercontent.com/u/4/drive-viewer/AFGJ81pGDt1vsvftAeL_UBAySFyPFKlEAE4LawPPiQK2n5ClfBKEX4aWYmwk5XkIDSBGHZ1YvXrN0nqFTIrapppuaygBCMd7Rg=w1960-h2324"
             ></TestimonialCard1>
           </div>
         </div>

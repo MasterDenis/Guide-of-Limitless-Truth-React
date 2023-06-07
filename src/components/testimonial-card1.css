@@ -128,6 +128,11 @@
   background-repeat: top left;
   background-position: top leftcenter,top left;
 }
+.testimonial-card1-root-class-name3 {
+  background-image: linear-gradient(135deg, rgb(0, 239, 255) 0.00%,rgb(22, 0, 255) 100.00%);
+  background-repeat: top left;
+  background-position: top leftcenter,top left;
+}
 @media(max-width: 991px) {
   .testimonial-card1-text2 {
     align-self: center;
