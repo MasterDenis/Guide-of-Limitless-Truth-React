@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
@@ -225,7 +225,7 @@ const TESTER = (props) => {
       <Footer rootClassName="footer-root-class-name7"></Footer>
       <div className="tester-container7">
         <div className="tester-code-embed">
-          <DangerousHTML
+          <Script
             html={`<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-carousel-widget" style="width:100%; height:100%; border-radius:35px; overflow:hidden;"
   data-link="https://photos.app.goo.gl/6EEwzrNZRqDPvXqHA"
@@ -237,7 +237,7 @@ const TESTER = (props) => {
   <object data="https://lh3.googleusercontent.com/pw/AJFCJaUy3m6ElBWSS3cSAY8EtCRWWYocRZGjnsTgCuFCSddTjAVaKiLl7yViKVyvrBqGvzmboOdy7l9VInJXXdOozHL_JiPC8_axCyLZnvjuYj4-7DkuYiVPeu5vlVhXKJWTyY_CNqcRwAaUCb1k1RwmSF9A=w1920-h1007"></object>
 </div>
 `}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <div className="tester-slider-container">

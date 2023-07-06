@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
@@ -266,7 +266,7 @@ const Home = (props) => {
       </div>
       <div className="home-image-slider">
         <div className="home-code-embed">
-          <DangerousHTML
+          <Script
             html={`<div class="container">
   <div style="overflow:hidden; border-radius: 35px;" id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -306,7 +306,7 @@ const Home = (props) => {
     </a>
   </div>
 </div>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name"></Footer>

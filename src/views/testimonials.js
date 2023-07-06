@@ -108,8 +108,8 @@ const Testimonials = (props) => {
               name="Rishabh"
               role="Customer"
               quote="A great session with supreme leader of tarot club !! The cards , energy and aura that had in the session, was super great and can't be expressed in words."
-              rootClassName="rootClassName3"
               picture_src="https://lh3.googleusercontent.com/u/4/drive-viewer/AFGJ81pGDt1vsvftAeL_UBAySFyPFKlEAE4LawPPiQK2n5ClfBKEX4aWYmwk5XkIDSBGHZ1YvXrN0nqFTIrapppuaygBCMd7Rg=w1960-h2324"
+              rootClassName="rootClassName3"
             ></TestimonialCard1>
           </div>
         </div>

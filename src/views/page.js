@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './page.css'
@@ -74,11 +74,11 @@ const Page = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<script>
   new Glide('.glide').mount()
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
     </div>

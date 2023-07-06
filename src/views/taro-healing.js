@@ -187,7 +187,7 @@ const TaroHealing = (props) => {
                   <h1 className="taro-healing-heading1">Taro-Healing</h1>
                   <span className="taro-healing-caption1">
                     <span>
-                      Taro-Therapy is how I call my approach to holistic healing
+                      Taro-Healing is how I call my approach to holistic healing
                       on subconscious level !
                       <span
                         dangerouslySetInnerHTML={{
