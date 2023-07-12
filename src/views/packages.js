@@ -156,7 +156,12 @@ const Packages = (props) => {
               </ol>
             </div>
             <div id="price-discounted" className="packages-container06">
-              <span className="packages-text21">15</span>
+              <img
+                alt="image"
+                src="/Images/15-500h.png"
+                className="packages-image3"
+              />
+              <span className="packages-text21">9</span>
               <span className="packages-text22">€</span>
             </div>
             <a
@@ -207,7 +212,12 @@ const Packages = (props) => {
               </ul>
             </div>
             <div className="packages-container08">
-              <span className="packages-text31">20</span>
+              <img
+                alt="image"
+                src="/Images/20-500h.png"
+                className="packages-image4"
+              />
+              <span className="packages-text31">11</span>
               <span className="packages-text32">€</span>
             </div>
             <a
@@ -273,8 +283,13 @@ const Packages = (props) => {
               </ul>
             </div>
             <div className="packages-container10">
+              <img
+                alt="image"
+                src="/Images/30-500h.png"
+                className="packages-image5"
+              />
               <span className="packages-text43">
-                <span>30</span>
+                <span>15</span>
                 <br></br>
               </span>
               <span className="packages-text46">€</span>
@@ -299,7 +314,7 @@ const Packages = (props) => {
           <img
             alt="image"
             src="/SectionImages/golt-logo-seperatorca-200h.png"
-            className="packages-image3"
+            className="packages-image6"
           />
         </div>
       </div>
