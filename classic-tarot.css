@@ -1,0 +1,791 @@
+.navbar-navbar {
+  width: 100%;
+  height: 136px;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: auto;
+  align-self: auto;
+  align-items: center;
+  flex-shrink: 1;
+  padding-top: 21px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 28px;
+}
+.navbar-navlink {
+  display: contents;
+}
+.navbar-branding-logo {
+  width: 379px;
+  cursor: pointer;
+  height: auto;
+  align-self: center;
+  box-sizing: content-box;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-branding-logo:hover {
+  width: 389px;
+}
+.navbar-nav-content {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 100px;
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar-nav-links {
+  gap: var(--dl-space-space-threeunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.navbar-navlink1 {
+  display: contents;
+}
+.navbar-button {
+  flex: 0 0 auto;
+  width: 175px;
+  height: 60px;
+  display: flex;
+  align-self: center;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 23, 0.43);
+  transition: 0.3s;
+  align-items: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: 35px;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  background-image: linear-gradient(315deg, rgb(0, 76, 255) 0.00%,rgb(0, 219, 222) 100.00%);
+}
+.navbar-button:hover {
+  width: 180px;
+  height: 65px;
+  max-width: auto;
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 23, 0.43);
+  max-height: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 5px;
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-image: radial-gradient(circle at center, rgb(0, 213, 255) 0.00%,rgb(0, 76, 255) 99.00%);
+}
+.navbar-text {
+  color: #ffffff;
+  width: auto;
+  height: auto;
+  font-size: 18px;
+  text-align: center;
+  font-family: Poppins;
+}
+.navbar-root-class-name {
+  max-width: 100%;
+  background-color: #ffffff;
+}
+.navbar-root-class-name1 {
+  max-width: auto;
+  background-color: #ffffff;
+}
+.navbar-root-class-name2 {
+  background-color: #ffffff;
+}
+.navbar-root-class-name3 {
+  background-color: #ffffff;
+}
+.navbar-root-class-name4 {
+  background-color: #ffffff;
+}
+.navbar-root-class-name5 {
+  background-color: #ffffff;
+}
+.navbar-root-class-name6 {
+  max-width: 100%;
+  background-color: #ffffff;
+}
+.navbar-root-class-name7 {
+  max-width: 100%;
+  background-color: #ffffff;
+}
+@media(max-width: 991px) {
+  .navbar-branding-logo {
+    margin: var(--dl-space-space-halfunit);
+    align-self: center;
+  }
+  .navbar-nav-content {
+    display: flex;
+    margin-left: 111px;
+  }
+}
+@media(max-width: 767px) {
+  .navbar-navbar {
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    justify-content: center;
+  }
+  .navbar-branding-logo {
+    top: 0px;
+    left: 0px;
+    width: 303px;
+    bottom: 0px;
+    height: 121px;
+    margin: auto;
+    align-self: center;
+  }
+  .navbar-nav-content {
+    width: 356px;
+    height: 102px;
+    display: flex;
+    margin-left: 37px;
+  }
+  .navbar-nav-links {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-navbar {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: 6px;
+  }
+  .navbar-branding-logo {
+    width: 195px;
+    height: auto;
+    max-width: 200px;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+  }
+  .navbar-nav-content {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-left: 5px;
+    flex-direction: row;
+  }
+  .navbar-button {
+    width: 105px;
+    height: 35px;
+    max-width: 117px;
+    align-self: center;
+    max-height: 43px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .navbar-text {
+    width: auto;
+    height: auto;
+    font-size: 11px;
+    align-self: center;
+    text-align: center;
+  }
+}
+
+.footer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-footer {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 28px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: center;
+}
+.footer-image {
+  width: 399px;
+  height: 100%;
+  align-self: center;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+.footer-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link {
+  display: contents;
+}
+.footer-container2 {
+  width: 65px;
+  cursor: pointer;
+  height: 65px;
+  display: flex;
+  margin-right: 14px;
+  background-size: cover;
+  background-image: url("public/Icons/discord-200h.png");
+  background-position: center;
+}
+.footer-container2:hover {
+  width: 68px;
+  height: 68px;
+  background-image: url("https://i.imgur.com/t9EOnTY.png");
+}
+.footer-link1 {
+  display: contents;
+}
+.footer-container3 {
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  margin-right: 14px;
+  background-size: cover;
+  background-image: url("public/Icons/youtube-200h.png");
+  background-position: center;
+}
+.footer-container3:hover {
+  width: 53px;
+  height: 53px;
+  background-image: url("https://i.imgur.com/bCwQUur.png");
+}
+.footer-link2 {
+  display: contents;
+}
+.footer-container4 {
+  width: 48px;
+  cursor: pointer;
+  height: 48px;
+  display: flex;
+  margin-right: 14px;
+  background-size: cover;
+  background-image: url("public/Icons/gmail-200h.png");
+  background-position: center;
+}
+.footer-container4:hover {
+  width: 51px;
+  height: 51px;
+  background-image: url("https://i.imgur.com/vLJkQhA.png");
+}
+.footer-link3 {
+  display: contents;
+}
+.footer-container5 {
+  width: 44px;
+  cursor: pointer;
+  height: 44px;
+  display: flex;
+  margin-right: 14px;
+  background-size: cover;
+  background-image: url("public/Icons/instagram-200h.png");
+  background-position: center;
+}
+.footer-container5:hover {
+  width: 47px;
+  height: 47px;
+  background-image: url("https://i.imgur.com/D4wELfV.png");
+}
+.footer-link4 {
+  display: contents;
+}
+.footer-container6 {
+  width: 44px;
+  cursor: pointer;
+  height: 44px;
+  display: flex;
+  margin-right: 14px;
+  background-size: cover;
+  background-image: url("public/Icons/twitch-200h.png");
+  background-position: center;
+}
+.footer-container6:hover {
+  width: 47px;
+  height: 47px;
+  background-image: url("https://i.imgur.com/jnTPJhX.png");
+}
+
+.footer-root-class-name1 {
+  width: 100%;
+}
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .footer-container1 {
+    height: auto;
+  }
+  .footer-container2 {
+    width: 65px;
+  }
+  .footer-container3 {
+    width: 50px;
+  }
+  .footer-container4 {
+    width: Small;
+  }
+  .footer-container5 {
+    width: 44px;
+  }
+  .footer-container6 {
+    width: 44px;
+  }
+}
+@media(max-width: 767px) {
+  .footer-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .footer-container1 {
+    height: auto;
+  }
+  .footer-container2 {
+    width: 65px;
+  }
+  .footer-container3 {
+    width: 50px;
+  }
+  .footer-container4 {
+    width: Small;
+  }
+  .footer-container5 {
+    width: 44px;
+  }
+  .footer-container6 {
+    width: 44px;
+  }
+}
+@media(max-width: 479px) {
+  .footer-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .footer-image {
+    width: 90%;
+    height: var(--dl-size-size-medium);
+    margin-bottom: 5px;
+  }
+  .footer-container1 {
+    width: 352px;
+    height: auto;
+  }
+  .footer-container2 {
+    width: 65px;
+  }
+  .footer-container3 {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-container4 {
+    width: Small;
+  }
+  .footer-container5 {
+    width: 44px;
+  }
+  .footer-container6 {
+    width: 44px;
+  }
+}
+
+.classic-tarot-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.classic-tarot-details-description-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 45px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(84, 200, 255) 48.00%,rgb(84, 200, 255) 66.00%,rgba(84, 200, 255, 0) 100.00%);
+}
+.classic-tarot-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.classic-tarot-image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.classic-tarot-hero {
+  width: 762px;
+  height: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.classic-tarot-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  padding-left: 19px;
+  flex-direction: column;
+}
+.classic-tarot-main {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: 97%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 11px;
+}
+.classic-tarot-header {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  border-top-left-radius: var(--dl-radius-radius-round);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-round);
+}
+.classic-tarot-image1 {
+  width: auto;
+  display: none;
+  object-fit: cover;
+}
+.classic-tarot-heading {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.classic-tarot-caption {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: Poppins;
+  line-height: 25px;
+  text-overflow: ellipsis;
+}
+.classic-tarot-link {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+  font-style: normal;
+  margin-top: auto;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 35px;
+  margin-bottom: 21px;
+  padding-right: var(--dl-space-space-twounits);
+  letter-spacing: 2px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-image: linear-gradient(315deg, rgb(0, 153, 255) 0%, rgb(0, 252, 255) 100%);
+}
+.classic-tarot-link:hover {
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px 0px rgba(0, 23, 43, 0.39);
+  background-image: linear-gradient(135deg, rgb(0, 153, 255) 0.00%,rgb(0, 252, 255) 100.00%);
+}
+.classic-tarot-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.classic-tarot-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.classic-tarot-image2 {
+  width: 100%;
+  align-self: flex-end;
+  margin-top: 3px;
+  object-fit: cover;
+  margin-bottom: 4px;
+}
+.classic-tarot-testimonials-button-section {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.classic-tarot-testimonials-button-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+}
+.classic-tarot-navlink {
+  display: contents;
+}
+.classic-tarot-testimonials-button {
+  width: 299px;
+  height: auto;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px rgba(0, 77, 126, 0.48);
+  transition: 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgb(0, 153, 255) 0.00%,rgb(0, 252, 255) 100.00%);
+}
+.classic-tarot-testimonials-button:hover {
+  background-image: linear-gradient(135deg, rgb(0, 153, 255) 0.00%,rgb(0, 252, 255) 100.00%);
+}
+.classic-tarot-text15 {
+  color: rgb(255, 255, 255);
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .classic-tarot-details-description-section {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .classic-tarot-container1 {
+    width: auto;
+    margin-left: 0px;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .classic-tarot-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .classic-tarot-hero {
+    gap: var(--dl-space-space-fourunits);
+    flex: 1;
+    width: auto;
+    height: auto;
+    position: relative;
+    max-width: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .classic-tarot-content {
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+  }
+  .classic-tarot-main {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  .classic-tarot-image1 {
+    display: none;
+  }
+  .classic-tarot-heading {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .classic-tarot-caption {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .classic-tarot-text11 {
+    text-align: left;
+  }
+  .classic-tarot-text12 {
+    text-align: left;
+  }
+  .classic-tarot-text13 {
+    text-align: left;
+  }
+  .classic-tarot-text14 {
+    text-align: left;
+  }
+  .classic-tarot-testimonials-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 767px) {
+  .classic-tarot-container1 {
+    margin-left: 0px;
+  }
+  .classic-tarot-image {
+    display: none;
+  }
+  .classic-tarot-content {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: 12px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .classic-tarot-header {
+    margin-left: 0px;
+  }
+  .classic-tarot-image1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    max-width: 400px;
+    align-self: center;
+    border-radius: 15%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+  }
+  .classic-tarot-heading {
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+  }
+  .classic-tarot-caption {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .classic-tarot-text11 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .classic-tarot-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .classic-tarot-text13 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .classic-tarot-text14 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .classic-tarot-testimonials-button {
+    left: 0px;
+    right: 0px;
+    bottom: 8%;
+    position: static;
+  }
+}
+@media(max-width: 479px) {
+  .classic-tarot-container1 {
+    height: auto;
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .classic-tarot-image {
+    display: none;
+  }
+  .classic-tarot-content {
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 3px;
+  }
+  .classic-tarot-header {
+    width: auto;
+    align-items: flex-start;
+  }
+  .classic-tarot-image1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: center;
+  }
+  .classic-tarot-heading {
+    max-width: 280px;
+    align-self: center;
+  }
+  .classic-tarot-caption {
+    align-self: center;
+  }
+  .classic-tarot-testimonials-button-container {
+    position: relative;
+  }
+  .classic-tarot-testimonials-button {
+    top: 29px;
+    left: 0px;
+    width: 201px;
+    height: 43px;
+    position: absolute;
+  }
+  .classic-tarot-text15 {
+    color: rgb(255, 255, 255);
+  }
+}
