@@ -740,6 +740,7 @@
 }
 .packages-image3 {
   width: 70px;
+  display: none;
   object-fit: cover;
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -917,6 +918,7 @@
 }
 .packages-image4 {
   width: 70px;
+  display: none;
   object-fit: cover;
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -1119,6 +1121,7 @@
 }
 .packages-image5 {
   width: 70px;
+  display: none;
   object-fit: cover;
   margin-right: var(--dl-space-space-halfunit);
 }
