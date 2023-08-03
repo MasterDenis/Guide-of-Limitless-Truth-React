@@ -65,7 +65,7 @@
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
-  background-image: linear-gradient(135deg, rgb(255, 158, 221) 3.00%,rgb(215, 0, 197) 99.00%);
+  background-image: linear-gradient(315deg, rgb(0, 76, 255) 0.00%,rgb(0, 219, 222) 100.00%);
 }
 .navbar-button:hover {
   width: 180px;
@@ -218,7 +218,7 @@
   height: 400px;
   align-self: center;
   margin-top: var(--dl-space-space-unit);
-  background-image: linear-gradient(135deg, rgb(255, 160, 232) 1.00%,rgb(216, 60, 249) 99.00%);
+  background-image: radial-gradient(circle at center, rgb(0, 187, 255) 1.00%,rgb(237, 238, 240) 100.00%);
 }
 .intro-video-root-class-name1 {
   height: 400px;

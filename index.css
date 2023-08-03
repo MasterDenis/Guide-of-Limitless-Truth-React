@@ -65,7 +65,7 @@
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
-  background-image: linear-gradient(135deg, rgb(255, 158, 221) 3.00%,rgb(215, 0, 197) 99.00%);
+  background-image: linear-gradient(315deg, rgb(0, 76, 255) 0.00%,rgb(0, 219, 222) 100.00%);
 }
 .navbar-button:hover {
   width: 180px;
@@ -218,7 +218,7 @@
   height: 400px;
   align-self: center;
   margin-top: var(--dl-space-space-unit);
-  background-image: linear-gradient(135deg, rgb(255, 160, 232) 1.00%,rgb(216, 60, 249) 99.00%);
+  background-image: radial-gradient(circle at center, rgb(0, 187, 255) 1.00%,rgb(237, 238, 240) 100.00%);
 }
 .intro-video-root-class-name1 {
   height: 400px;
@@ -589,7 +589,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-image: linear-gradient(135deg, rgb(255, 158, 221) 3.00%,rgb(215, 0, 197) 99.00%);
+  background-image: linear-gradient(135deg, rgb(0, 239, 255) 2%, rgb(0, 141, 255) 100%);
 }
 .home-button:hover {
   color: #ffffff;
@@ -605,7 +605,7 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(255, 167, 225) 56.00%,rgba(84, 200, 255, 0) 100.00%);
+  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(84, 200, 255) 48.00%,rgb(84, 200, 255) 66.00%,rgba(84, 200, 255, 0) 100.00%);
 }
 .home-container1 {
   width: 100%;
@@ -757,7 +757,7 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(255, 167, 225) 56.00%,rgba(84, 200, 255, 0) 100.00%);
+  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(84, 200, 255) 48.00%,rgb(84, 200, 255) 66.00%,rgba(84, 200, 255, 0) 100.00%);
 }
 .home-container4 {
   width: 100%;
@@ -949,7 +949,7 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   background-color: transparent;
-  background-image: linear-gradient(135deg, rgb(255, 158, 221) 3.00%,rgb(215, 0, 197) 99.00%);
+  background-image: linear-gradient(135deg, rgb(0, 239, 255) 2%, rgb(0, 141, 255) 100%);
 }
 .home-testimonials-button:hover {
   background-image: linear-gradient(135deg, rgb(0, 153, 255) 0.00%,rgb(0, 252, 255) 100.00%);

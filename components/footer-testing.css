@@ -38,117 +38,7 @@
 .footer-testing-link {
   display: contents;
 }
-.footer-testing-container2 {
-  width: 65px;
-  height: 65px;
-  display: flex;
-  margin-right: 14px;
-  background-size: cover;
-  background-image: url("public/Icons/discord-200h.png");
-  background-position: center;
-}
-.footer-testing-container2:hover {
-  width: 65px;
-  background-image: url("https://i.imgur.com/t9EOnTY.png");
-}
-.footer-testing-link01 {
-  display: contents;
-}
-.footer-testing-container3 {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  margin-right: 14px;
-  background-size: cover;
-  background-image: url("public/Icons/youtube-200h.png");
-  background-position: center;
-}
-.footer-testing-container3:hover {
-  width: var(--dl-size-size-small);
-  background-image: url("https://i.imgur.com/bCwQUur.png");
-}
-.footer-testing-link02 {
-  display: contents;
-}
-.footer-testing-container4 {
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
-  display: flex;
-  margin-right: 14px;
-  background-size: cover;
-  background-image: url("public/Icons/gmail-200h.png");
-  background-position: center;
-}
-.footer-testing-container4:hover {
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
-  background-image: url("https://i.imgur.com/LLPIb2n.png");
-}
-.footer-testing-link03 {
-  display: contents;
-}
-.footer-testing-container5 {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  margin-right: 14px;
-  background-size: cover;
-  background-image: url("public/Icons/instagram-200h.png");
-  background-position: center;
-}
-.footer-testing-container5:hover {
-  width: 44px;
-  background-image: url("https://i.imgur.com/D4wELfV.png");
-}
-.footer-testing-link04 {
-  display: contents;
-}
-.footer-testing-container6 {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  margin-right: 14px;
-  background-size: cover;
-  background-image: url("public/Icons/twitch-200h.png");
-  background-position: center;
-}
-.footer-testing-container6:hover {
-  width: 44px;
-  background-image: url("https://i.imgur.com/jnTPJhX.png");
-}
-.footer-testing-footer1 {
-  width: 100%;
-  display: flex;
-  max-width: auto;
-  align-self: center;
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 28px;
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  padding-bottom: 12px;
-  justify-content: center;
-}
 .footer-testing-image1 {
-  width: 399px;
-  height: 100%;
-  align-self: center;
-  object-fit: cover;
-  margin-bottom: 6px;
-}
-.footer-testing-container7 {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-}
-.footer-testing-link05 {
-  display: contents;
-}
-.footer-testing-image2 {
   width: 4%;
   height: 100%;
   object-fit: cover;
@@ -156,10 +46,25 @@
   margin-right: 14px;
   text-decoration: none;
 }
-.footer-testing-image2:hover {
+.footer-testing-image1:hover {
   width: 4.5%;
 }
-.footer-testing-link06 {
+.footer-testing-link1 {
+  display: contents;
+}
+.footer-testing-image2 {
+  width: 3%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 14px;
+  text-decoration: none;
+}
+.footer-testing-image2:hover {
+  width: 3.5%;
+  background-image: url("https://i.imgur.com/bCwQUur.png");
+}
+.footer-testing-link2 {
   display: contents;
 }
 .footer-testing-image3 {
@@ -172,13 +77,12 @@
 }
 .footer-testing-image3:hover {
   width: 3.5%;
-  background-image: url("https://i.imgur.com/bCwQUur.png");
 }
-.footer-testing-link07 {
+.footer-testing-link3 {
   display: contents;
 }
 .footer-testing-image4 {
-  width: 3%;
+  width: 2.5%;
   height: 100%;
   object-fit: cover;
   transition: 0.3s;
@@ -186,9 +90,9 @@
   text-decoration: none;
 }
 .footer-testing-image4:hover {
-  width: 3.5%;
+  width: 3%;
 }
-.footer-testing-link08 {
+.footer-testing-link4 {
   display: contents;
 }
 .footer-testing-image5 {
@@ -202,49 +106,20 @@
 .footer-testing-image5:hover {
   width: 3%;
 }
-.footer-testing-link09 {
-  display: contents;
-}
-.footer-testing-image6 {
-  width: 2.5%;
-  height: 100%;
-  object-fit: cover;
-  transition: 0.3s;
-  margin-right: 14px;
-  text-decoration: none;
-}
-.footer-testing-image6:hover {
-  width: 3%;
-}
 @media(max-width: 991px) {
-  .footer-testing-container2 {
+  .footer-testing-image1 {
     width: 6%;
-  }
-  .footer-testing-container3 {
-    width: 5%;
-  }
-  .footer-testing-container4 {
-    width: 4%;
-  }
-  .footer-testing-container5 {
-    width: 4%;
-  }
-  .footer-testing-container6 {
-    width: 4%;
   }
   .footer-testing-image2 {
-    width: 6%;
+    width: 5%;
   }
   .footer-testing-image3 {
-    width: 5%;
+    width: 4%;
   }
   .footer-testing-image4 {
     width: 4%;
   }
   .footer-testing-image5 {
-    width: 4%;
-  }
-  .footer-testing-image6 {
     width: 4%;
   }
 }
@@ -253,27 +128,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .footer-testing-container2 {
+  .footer-testing-image1 {
     width: 8%;
-  }
-  .footer-testing-container3 {
-    width: 6%;
-  }
-  .footer-testing-container4 {
-    width: 6%;
-  }
-  .footer-testing-container5 {
-    width: 6%;
-  }
-  .footer-testing-container6 {
-    width: 6%;
-  }
-  .footer-testing-footer1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
   }
   .footer-testing-image2 {
-    width: 8%;
+    width: 6%;
   }
   .footer-testing-image3 {
     width: 6%;
@@ -282,9 +141,6 @@
     width: 6%;
   }
   .footer-testing-image5 {
-    width: 6%;
-  }
-  .footer-testing-image6 {
     width: 6%;
   }
 }
@@ -303,37 +159,11 @@
     width: auto;
     height: auto;
   }
-  .footer-testing-container2 {
-    width: 15%;
-  }
-  .footer-testing-container3 {
-    width: 10%;
-  }
-  .footer-testing-container4 {
-    width: 10%;
-  }
-  .footer-testing-container5 {
-    width: 10%;
-  }
-  .footer-testing-container6 {
-    width: 10%;
-  }
-  .footer-testing-footer1 {
-    padding: var(--dl-space-space-unit);
-    flex-direction: column;
-    padding-bottom: var(--dl-space-space-halfunit);
-  }
   .footer-testing-image1 {
-    width: 90%;
-    height: var(--dl-size-size-medium);
-    margin-bottom: 5px;
-  }
-  .footer-testing-container7 {
-    width: auto;
-    height: auto;
+    width: 15%;
   }
   .footer-testing-image2 {
-    width: 15%;
+    width: 10%;
   }
   .footer-testing-image3 {
     width: 10%;
@@ -342,9 +172,6 @@
     width: 10%;
   }
   .footer-testing-image5 {
-    width: 10%;
-  }
-  .footer-testing-image6 {
     width: 10%;
   }
 }
