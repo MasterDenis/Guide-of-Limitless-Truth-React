@@ -15,7 +15,7 @@
   transition: 0.3s;
   align-items: flex-start;
   background-size: cover;
-  background-image: url("public/Icons/discord-300w.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
 }
 .social-icon-container1:hover {
   background-size: cover;
