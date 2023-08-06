@@ -1,0 +1,634 @@
+.spiritual-session-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://i.imgur.com/wgYLGik.png');
+}
+.spiritual-session-section {
+  width: 100%;
+  height: 110%;
+  display: none;
+  margin-top: 45px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(84, 200, 255) 48.00%,rgb(84, 200, 255) 66.00%,rgba(84, 200, 255, 0) 100.00%);
+}
+.spiritual-session-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.spiritual-session-image {
+  width: 27%;
+  height: 100%;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.spiritual-session-hero {
+  width: 762px;
+  height: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.spiritual-session-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  padding-left: 19px;
+  flex-direction: column;
+}
+.spiritual-session-main {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: 97%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 11px;
+}
+.spiritual-session-header {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  border-top-left-radius: var(--dl-radius-radius-round);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-round);
+}
+.spiritual-session-image1 {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+.spiritual-session-heading {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.spiritual-session-caption {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: Poppins;
+  line-height: 25px;
+  text-overflow: ellipsis;
+}
+.spiritual-session-link {
+  color: var(--dl-color-gray-white);
+  width: 189px;
+  font-size: 25px;
+  align-self: center;
+  box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+  margin-top: auto;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: 21px;
+  padding-right: var(--dl-space-space-twounits);
+  letter-spacing: 7px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-image: linear-gradient(315deg, rgb(0, 153, 255) 1%, rgb(0, 252, 255) 100%);
+}
+.spiritual-session-link:hover {
+  box-shadow: 1px 1px 10px 0px rgba(0, 23, 43, 0.39);
+  background-image: linear-gradient(135deg, rgb(0, 153, 255) 0.00%,rgb(0, 252, 255) 100.00%);
+}
+.spiritual-session-details-description-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0) 0.00%,rgb(255, 165, 195) 47.00%,rgb(255, 112, 145) 78.00%);
+}
+.spiritual-session-container2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.spiritual-session-image2 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.spiritual-session-hero1 {
+  width: 762px;
+  height: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.spiritual-session-content1 {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  padding-left: 19px;
+  flex-direction: column;
+}
+.spiritual-session-main1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: 97%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 11px;
+}
+.spiritual-session-header1 {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  border-top-left-radius: var(--dl-radius-radius-round);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-round);
+}
+.spiritual-session-image3 {
+  width: auto;
+  display: none;
+  object-fit: cover;
+}
+.spiritual-session-heading1 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.spiritual-session-caption1 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: Poppins;
+  line-height: 25px;
+  text-overflow: ellipsis;
+}
+.spiritual-session-link1 {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+  font-style: normal;
+  margin-top: auto;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 35px;
+  margin-bottom: 21px;
+  padding-right: var(--dl-space-space-twounits);
+  letter-spacing: 2px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-image: linear-gradient(135deg, rgb(242, 172, 172) 6.00%,rgb(255, 98, 178) 100.00%);
+}
+.spiritual-session-link1:hover {
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px 0px rgba(0, 23, 43, 0.39);
+  background-image: radial-gradient(circle at center, rgb(255, 208, 208) 4.00%,rgb(255, 98, 178) 100.00%);
+}
+.spiritual-session-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spiritual-session-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spiritual-session-testimonials-button-section {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spiritual-session-testimonials-button-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+}
+.spiritual-session-navlink {
+  display: contents;
+}
+.spiritual-session-testimonials-button {
+  width: 299px;
+  height: auto;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px rgba(66, 0, 0, 0.43);
+  transition: 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, rgb(242, 172, 172) 6.00%,rgb(255, 98, 178) 100.00%);
+}
+.spiritual-session-testimonials-button:hover {
+  background-image: linear-gradient(315deg, rgb(242, 172, 172) 6.00%,rgb(255, 98, 178) 100.00%);
+}
+.spiritual-session-text31 {
+  color: rgb(255, 255, 255);
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.spiritual-session-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spiritual-session-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .spiritual-session-section {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .spiritual-session-container1 {
+    width: auto;
+    margin-left: 0px;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .spiritual-session-image {
+    width: 30%;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .spiritual-session-hero {
+    gap: var(--dl-space-space-fourunits);
+    flex: 1;
+    width: auto;
+    height: auto;
+    position: relative;
+    max-width: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .spiritual-session-content {
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+  }
+  .spiritual-session-main {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  .spiritual-session-image1 {
+    display: none;
+  }
+  .spiritual-session-heading {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .spiritual-session-caption {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .spiritual-session-text12 {
+    text-align: left;
+  }
+  .spiritual-session-text13 {
+    text-align: left;
+  }
+  .spiritual-session-link {
+    color: var(--dl-color-gray-white);
+    width: auto;
+    font-size: 25px;
+    align-self: center;
+    box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+    margin-right: 2px;
+    letter-spacing: 6px;
+    background-image: linear-gradient(315deg, rgb(0, 153, 255) 0%, rgb(0, 252, 255) 100%);
+  }
+  .spiritual-session-details-description-section {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .spiritual-session-container2 {
+    width: auto;
+    margin-left: 0px;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .spiritual-session-image2 {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .spiritual-session-hero1 {
+    gap: var(--dl-space-space-fourunits);
+    flex: 1;
+    width: auto;
+    height: auto;
+    position: relative;
+    max-width: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .spiritual-session-content1 {
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+  }
+  .spiritual-session-main1 {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  .spiritual-session-image3 {
+    display: none;
+  }
+  .spiritual-session-heading1 {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .spiritual-session-caption1 {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .spiritual-session-text29 {
+    text-align: left;
+  }
+  .spiritual-session-text30 {
+    text-align: left;
+  }
+  .spiritual-session-testimonials-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 767px) {
+  .spiritual-session-container1 {
+    margin-left: 0px;
+  }
+  .spiritual-session-image {
+    display: none;
+  }
+  .spiritual-session-content {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: 12px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .spiritual-session-header {
+    margin-left: 0px;
+  }
+  .spiritual-session-image1 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    border-radius: 15%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+  }
+  .spiritual-session-heading {
+    font-size: 40px;
+  }
+  .spiritual-session-caption {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .spiritual-session-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .spiritual-session-text13 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .spiritual-session-link {
+    width: 110px;
+    font-size: 20px;
+    align-self: center;
+    letter-spacing: 5px;
+  }
+  .spiritual-session-container2 {
+    margin-left: 0px;
+  }
+  .spiritual-session-image2 {
+    display: none;
+  }
+  .spiritual-session-content1 {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: 12px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .spiritual-session-header1 {
+    margin-left: 0px;
+  }
+  .spiritual-session-image3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    max-width: 400px;
+    align-self: center;
+    border-radius: 15%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+  }
+  .spiritual-session-heading1 {
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+  }
+  .spiritual-session-caption1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .spiritual-session-text29 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .spiritual-session-text30 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .spiritual-session-testimonials-button {
+    left: 0px;
+    right: 0px;
+    bottom: 8%;
+    position: static;
+  }
+}
+@media(max-width: 479px) {
+  .spiritual-session-container1 {
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .spiritual-session-image {
+    display: none;
+  }
+  .spiritual-session-content {
+    padding-bottom: 3px;
+  }
+  .spiritual-session-header {
+    align-items: flex-start;
+  }
+  .spiritual-session-image1 {
+    height: 100%;
+    display: flex;
+    align-self: center;
+  }
+  .spiritual-session-heading {
+    max-width: 280px;
+  }
+  .spiritual-session-container2 {
+    height: auto;
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .spiritual-session-image2 {
+    display: none;
+  }
+  .spiritual-session-content1 {
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 3px;
+  }
+  .spiritual-session-header1 {
+    width: auto;
+    align-items: flex-start;
+  }
+  .spiritual-session-image3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: center;
+  }
+  .spiritual-session-heading1 {
+    max-width: 280px;
+    align-self: center;
+  }
+  .spiritual-session-caption1 {
+    align-self: center;
+  }
+  .spiritual-session-testimonials-button-container {
+    position: relative;
+  }
+  .spiritual-session-testimonials-button {
+    top: 29px;
+    left: 0px;
+    width: 201px;
+    height: 43px;
+    position: absolute;
+  }
+  .spiritual-session-text31 {
+    color: rgb(255, 255, 255);
+  }
+}

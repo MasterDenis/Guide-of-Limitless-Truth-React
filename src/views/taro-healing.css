@@ -1,0 +1,634 @@
+.taro-healing-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://i.imgur.com/wgYLGik.png');
+}
+.taro-healing-section {
+  width: 100%;
+  height: 110%;
+  display: none;
+  margin-top: 45px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(221, 224, 225, 0) 0.00%,rgba(84, 200, 255, 0) 4.00%,rgb(84, 200, 255) 48.00%,rgb(84, 200, 255) 66.00%,rgba(84, 200, 255, 0) 100.00%);
+}
+.taro-healing-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.taro-healing-image {
+  width: 27%;
+  height: 100%;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.taro-healing-hero {
+  width: 762px;
+  height: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.taro-healing-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  padding-left: 19px;
+  flex-direction: column;
+}
+.taro-healing-main {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: 97%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 11px;
+}
+.taro-healing-header {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  border-top-left-radius: var(--dl-radius-radius-round);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-round);
+}
+.taro-healing-image1 {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+.taro-healing-heading {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.taro-healing-caption {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: Poppins;
+  line-height: 25px;
+  text-overflow: ellipsis;
+}
+.taro-healing-link {
+  color: var(--dl-color-gray-white);
+  width: 189px;
+  font-size: 25px;
+  align-self: center;
+  box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+  margin-top: auto;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: 21px;
+  padding-right: var(--dl-space-space-twounits);
+  letter-spacing: 7px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-image: linear-gradient(315deg, rgb(0, 153, 255) 1%, rgb(0, 252, 255) 100%);
+}
+.taro-healing-link:hover {
+  box-shadow: 1px 1px 10px 0px rgba(0, 23, 43, 0.39);
+  background-image: linear-gradient(135deg, rgb(0, 153, 255) 0.00%,rgb(0, 252, 255) 100.00%);
+}
+.taro-healing-details-description-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0) 0.00%,rgb(255, 165, 195) 47.00%,rgb(255, 112, 145) 78.00%);
+}
+.taro-healing-container2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.taro-healing-image2 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.taro-healing-hero1 {
+  width: 762px;
+  height: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.taro-healing-content1 {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  padding-left: 19px;
+  flex-direction: column;
+}
+.taro-healing-main1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: 97%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 11px;
+}
+.taro-healing-header1 {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  border-top-left-radius: var(--dl-radius-radius-round);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-round);
+}
+.taro-healing-image3 {
+  width: auto;
+  display: none;
+  object-fit: cover;
+}
+.taro-healing-heading1 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.taro-healing-caption1 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: Poppins;
+  line-height: 25px;
+  text-overflow: ellipsis;
+}
+.taro-healing-link1 {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+  font-style: normal;
+  margin-top: auto;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 35px;
+  margin-bottom: 21px;
+  padding-right: var(--dl-space-space-twounits);
+  letter-spacing: 2px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-image: linear-gradient(135deg, rgb(242, 172, 172) 6.00%,rgb(255, 98, 178) 100.00%);
+}
+.taro-healing-link1:hover {
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px 0px rgba(0, 23, 43, 0.39);
+  background-image: radial-gradient(circle at center, rgb(255, 208, 208) 4.00%,rgb(255, 98, 178) 100.00%);
+}
+.taro-healing-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taro-healing-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taro-healing-testimonials-button-section {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taro-healing-testimonials-button-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+}
+.taro-healing-navlink {
+  display: contents;
+}
+.taro-healing-testimonials-button {
+  width: 299px;
+  height: auto;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px rgba(66, 0, 0, 0.43);
+  transition: 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, rgb(242, 172, 172) 6.00%,rgb(255, 98, 178) 100.00%);
+}
+.taro-healing-testimonials-button:hover {
+  background-image: linear-gradient(315deg, rgb(242, 172, 172) 6.00%,rgb(255, 98, 178) 100.00%);
+}
+.taro-healing-text46 {
+  color: rgb(255, 255, 255);
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.taro-healing-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taro-healing-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .taro-healing-section {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .taro-healing-container1 {
+    width: auto;
+    margin-left: 0px;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .taro-healing-image {
+    width: 30%;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .taro-healing-hero {
+    gap: var(--dl-space-space-fourunits);
+    flex: 1;
+    width: auto;
+    height: auto;
+    position: relative;
+    max-width: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taro-healing-content {
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+  }
+  .taro-healing-main {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  .taro-healing-image1 {
+    display: none;
+  }
+  .taro-healing-heading {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .taro-healing-caption {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .taro-healing-text25 {
+    text-align: left;
+  }
+  .taro-healing-text26 {
+    text-align: left;
+  }
+  .taro-healing-link {
+    color: var(--dl-color-gray-white);
+    width: auto;
+    font-size: 25px;
+    align-self: center;
+    box-shadow: rgba(0, 23, 43, 0.39) 3px 3px 8px 0px;
+    margin-right: 2px;
+    letter-spacing: 6px;
+    background-image: linear-gradient(315deg, rgb(0, 153, 255) 0%, rgb(0, 252, 255) 100%);
+  }
+  .taro-healing-details-description-section {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .taro-healing-container2 {
+    width: auto;
+    margin-left: 0px;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .taro-healing-image2 {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .taro-healing-hero1 {
+    gap: var(--dl-space-space-fourunits);
+    flex: 1;
+    width: auto;
+    height: auto;
+    position: relative;
+    max-width: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taro-healing-content1 {
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+  }
+  .taro-healing-main1 {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  .taro-healing-image3 {
+    display: none;
+  }
+  .taro-healing-heading1 {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .taro-healing-caption1 {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .taro-healing-text44 {
+    text-align: left;
+  }
+  .taro-healing-text45 {
+    text-align: left;
+  }
+  .taro-healing-testimonials-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 767px) {
+  .taro-healing-container1 {
+    margin-left: 0px;
+  }
+  .taro-healing-image {
+    display: none;
+  }
+  .taro-healing-content {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: 12px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .taro-healing-header {
+    margin-left: 0px;
+  }
+  .taro-healing-image1 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    border-radius: 15%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+  }
+  .taro-healing-heading {
+    font-size: 40px;
+  }
+  .taro-healing-caption {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .taro-healing-text25 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .taro-healing-text26 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .taro-healing-link {
+    width: 110px;
+    font-size: 20px;
+    align-self: center;
+    letter-spacing: 5px;
+  }
+  .taro-healing-container2 {
+    margin-left: 0px;
+  }
+  .taro-healing-image2 {
+    display: none;
+  }
+  .taro-healing-content1 {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: 12px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .taro-healing-header1 {
+    margin-left: 0px;
+  }
+  .taro-healing-image3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    max-width: 400px;
+    align-self: center;
+    border-radius: 15%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+  }
+  .taro-healing-heading1 {
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+  }
+  .taro-healing-caption1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .taro-healing-text44 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .taro-healing-text45 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+  .taro-healing-testimonials-button {
+    left: 0px;
+    right: 0px;
+    bottom: 8%;
+    position: static;
+  }
+}
+@media(max-width: 479px) {
+  .taro-healing-container1 {
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .taro-healing-image {
+    display: none;
+  }
+  .taro-healing-content {
+    padding-bottom: 3px;
+  }
+  .taro-healing-header {
+    align-items: flex-start;
+  }
+  .taro-healing-image1 {
+    height: 100%;
+    display: flex;
+    align-self: center;
+  }
+  .taro-healing-heading {
+    max-width: 280px;
+  }
+  .taro-healing-container2 {
+    height: auto;
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .taro-healing-image2 {
+    display: none;
+  }
+  .taro-healing-content1 {
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 3px;
+  }
+  .taro-healing-header1 {
+    width: auto;
+    align-items: flex-start;
+  }
+  .taro-healing-image3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: center;
+  }
+  .taro-healing-heading1 {
+    max-width: 280px;
+    align-self: center;
+  }
+  .taro-healing-caption1 {
+    align-self: center;
+  }
+  .taro-healing-testimonials-button-container {
+    position: relative;
+  }
+  .taro-healing-testimonials-button {
+    top: 29px;
+    left: 0px;
+    width: 201px;
+    height: 43px;
+    position: absolute;
+  }
+  .taro-healing-text46 {
+    color: rgb(255, 255, 255);
+  }
+}
