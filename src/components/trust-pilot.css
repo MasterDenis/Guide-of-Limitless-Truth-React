@@ -7,9 +7,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.trust-pilot-code-embed {
+.trust-pilot-container1 {
   width: 100%;
   height: 100%;
+}
+.trust-pilot-container2 {
+  display: contents;
 }
 .trust-pilot-root-class-name {
   height: var(--dl-size-size-maxwidth);

@@ -1,0 +1,120 @@
+.app-component-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 88px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  background-color: #070807AB;
+}
+.app-component-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.app-component-container2 {
+  flex: 0 0 auto;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.app-component-container3 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.app-component-container4 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.app-component-link {
+  display: contents;
+}
+.app-component-container5 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-xlarge);
+  height: 50%;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, rgba(76, 85, 76, 0.47) 0.00%,rgba(0, 0, 0, 0.47) 99.00%);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.app-component-text {
+  color: rgb(202, 179, 160);
+  font-size: 24px;
+  align-self: center;
+  text-align: center;
+  font-family: "NeverMind Rounded";
+  letter-spacing: 2px;
+}
+.app-component-container6 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.app-component-container7 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-xlarge);
+  height: 50%;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgba(76, 85, 76, 0.47) 0.00%,rgba(0, 0, 0, 0.47) 99.00%);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.app-component-text1 {
+  color: rgb(202, 179, 160);
+  font-size: 24px;
+  align-self: center;
+  text-align: center;
+  font-family: "NeverMind Rounded";
+  letter-spacing: 2px;
+}
+@media(max-width: 767px) {
+  .app-component-container2 {
+    display: none;
+  }
+  .app-component-container3 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .app-component-container2 {
+    display: none;
+  }
+  .app-component-container3 {
+    width: 100%;
+  }
+}

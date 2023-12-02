@@ -69,7 +69,7 @@ Footer.defaultProps = {
   image_src2: '8365c6ef-996d-4e92-b34c-29ec08ef653d',
   image_alt3: 'image',
   image_alt6: 'logo',
-  image_src6: '/Branding/golt-logo-400w.png',
+  image_src6: '/Branding/golt-logoa-300h.png',
   image_src: '27b5fa7c-c1ac-4f14-936c-e3cb669c94e0',
   image_src4: '23b9e676-1ca7-449d-973f-fbf73f55ddb5',
   image_alt4: 'image',

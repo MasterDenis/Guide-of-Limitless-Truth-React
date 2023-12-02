@@ -23,7 +23,7 @@ const BLANKPAGE = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
     </div>

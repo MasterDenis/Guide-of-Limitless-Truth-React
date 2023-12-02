@@ -26,12 +26,12 @@ const TESTER = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name7"></Navbar>
       <section className="tester-section">
-        <div className="tester-container1">
+        <div className="tester-container01">
           <img
             alt="image"
             src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
@@ -106,8 +106,8 @@ const TESTER = (props) => {
           </div>
         </div>
       </section>
-      <div className="tester-container2">
-        <div className="tester-container3">
+      <div className="tester-container02">
+        <div className="tester-container03">
           <img
             alt="image"
             src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
@@ -116,8 +116,8 @@ const TESTER = (props) => {
         </div>
       </div>
       <IntroVideo rootClassName="intro-video-root-class-name2"></IntroVideo>
-      <div className="tester-container4">
-        <div className="tester-container5">
+      <div className="tester-container04">
+        <div className="tester-container05">
           <img
             alt="image"
             src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
@@ -126,14 +126,14 @@ const TESTER = (props) => {
         </div>
       </div>
       <section className="tester-section1">
-        <div className="tester-container6">
+        <div className="tester-container06">
           <div className="tester-hero1">
             <div className="tester-content1">
               <main className="tester-main1">
                 <header className="tester-header1">
                   <img
                     alt="image"
-                    src="/Images/1684159515569-600w.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="tester-image4"
                   />
                   <h1 className="tester-heading1">Services</h1>
@@ -205,7 +205,7 @@ const TESTER = (props) => {
           </div>
           <img
             alt="image"
-            src="/Images/1684159515569-600w.jpg"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="tester-image5"
           />
         </div>
@@ -223,10 +223,11 @@ const TESTER = (props) => {
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name7"></Footer>
-      <div className="tester-container7">
-        <div className="tester-code-embed">
-          <Script
-            html={`<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+      <div className="tester-container07">
+        <div className="tester-container08">
+          <div className="tester-container09">
+            <Script
+              html={`<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-carousel-widget" style="width:100%; height:100%; border-radius:35px; overflow:hidden;"
   data-link="https://photos.app.goo.gl/6EEwzrNZRqDPvXqHA"
   data-title=""
@@ -237,7 +238,8 @@ const TESTER = (props) => {
   <object data="https://lh3.googleusercontent.com/pw/AJFCJaUy3m6ElBWSS3cSAY8EtCRWWYocRZGjnsTgCuFCSddTjAVaKiLl7yViKVyvrBqGvzmboOdy7l9VInJXXdOozHL_JiPC8_axCyLZnvjuYj4-7DkuYiVPeu5vlVhXKJWTyY_CNqcRwAaUCb1k1RwmSF9A=w1920-h1007"></object>
 </div>
 `}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </div>
       <div className="tester-slider-container">

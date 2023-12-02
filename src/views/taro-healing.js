@@ -26,7 +26,7 @@ const TaroHealing = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name5"></Navbar>
@@ -34,7 +34,7 @@ const TaroHealing = (props) => {
         <div className="taro-healing-container1">
           <img
             alt="image"
-            src="/Images/hibiscus-photo-spiritual-session2-500w.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="taro-healing-image"
           />
           <div className="taro-healing-hero">
@@ -43,7 +43,7 @@ const TaroHealing = (props) => {
                 <header className="taro-healing-header">
                   <img
                     alt="image"
-                    src="/Images/hibiscus-photo-spiritual-session2-500w.png"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="taro-healing-image1"
                   />
                   <h1 className="taro-healing-heading">Taro-Therapy</h1>
@@ -172,7 +172,7 @@ const TaroHealing = (props) => {
         <div className="taro-healing-container2">
           <img
             alt="image"
-            src="/Images/hibiscus-photo-spiritual-session2-500w.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="taro-healing-image2"
           />
           <div className="taro-healing-hero1">
@@ -181,7 +181,7 @@ const TaroHealing = (props) => {
                 <header className="taro-healing-header1">
                   <img
                     alt="image"
-                    src="/Images/hibiscus-photo-spiritual-session2-500w.png"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="taro-healing-image3"
                   />
                   <h1 className="taro-healing-heading1">Taro-Healing</h1>
@@ -282,9 +282,6 @@ const TaroHealing = (props) => {
           Book Now
         </a>
       </section>
-      <div className="taro-healing-container3">
-        <div className="taro-healing-container4"></div>
-      </div>
       <div className="taro-healing-testimonials-button-section">
         <div className="taro-healing-testimonials-button-container">
           <Link to="/testimonials" className="taro-healing-navlink">
@@ -296,9 +293,6 @@ const TaroHealing = (props) => {
             </div>
           </Link>
         </div>
-      </div>
-      <div className="taro-healing-container5">
-        <div className="taro-healing-container6"></div>
       </div>
       <Footer rootClassName="footer-root-class-name5"></Footer>
     </div>

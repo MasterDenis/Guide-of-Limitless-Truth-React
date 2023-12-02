@@ -27,7 +27,7 @@ const Testimonials = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name1"></Navbar>
@@ -41,7 +41,7 @@ const Testimonials = (props) => {
                     <header className="testimonials-header">
                       <img
                         alt="image"
-                        src="/Images/hibiscus-spiritual-coaching-tarot-readings-400w.png"
+                        src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                         className="testimonials-image"
                       />
                     </header>
@@ -52,7 +52,7 @@ const Testimonials = (props) => {
           </div>
           <img
             alt="image"
-            src="/Images/hibiscus-spiritual-coaching-tarot-readings-400w.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="testimonials-image1"
           />
         </div>
@@ -98,8 +98,26 @@ const Testimonials = (props) => {
             <TestimonialCard1
               name="Rishabh"
               role="Customer"
+              Title="Great Session"
               quote="A great session with supreme leader of tarot club !! The cards , energy and aura that had in the session, was super great and can't be expressed in words."
+              picture_src="/Testimonials/img_4144_edited%20-%20rishabh%20gulati-200w.jpeg"
               rootClassName="rootClassName3"
+            ></TestimonialCard1>
+            <TestimonialCard1
+              name="Devin"
+              role="Customer"
+              Title="Highly Recommended!"
+              quote="Ewa has an incredible gift. I was blown away by both her sensitivity and awareness, and the sheer depth of information she was able to communicate in just a short session. Ewa is so passionate about what she does as well, it is a joy to experience. Highly recommend!"
+              picture_src="/Testimonials/20230904_181359%20-%20devin%20anderson-200w.jpg"
+              rootClassName="rootClassName4"
+            ></TestimonialCard1>
+            <TestimonialCard1
+              name="Brady"
+              role="Customer"
+              Title="Very Emotional Ride!"
+              quote="I received a tarot reading from guide of limitless truth last night and I honestly can say that she gave me the most thorough and accurate reading I’ve ever received. I know each reading is different for each person, but sincerely, if you’re looking for someone who can give you an extremely genuine reading, she is definitely the first person I’d recommend. It was a very emotional ride for me and I can’t wait until the next reading!"
+              picture_src="/Testimonials/signal-2023-09-07-213837_002-200h.jpeg"
+              rootClassName="rootClassName5"
             ></TestimonialCard1>
           </div>
         </div>

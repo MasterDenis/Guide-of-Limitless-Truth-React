@@ -66,7 +66,7 @@ PricingCard.defaultProps = {
   text3: 'Conversation for self-help and healing',
   text2: '€',
   text6: '  Can serve as a therapeutic session to broaden perspectives',
-  image_src: '/Images/20-1500h.png',
+  image_src: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   text4:
     ' Flexible focus ranging from general concepts to specific questions and struggles',
 }

@@ -26,7 +26,7 @@ const Packages = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name2"></Navbar>
@@ -34,7 +34,7 @@ const Packages = (props) => {
         <div className="packages-container01">
           <img
             alt="image"
-            src="/Images/ewa_photo_2bd-500w.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="packages-image"
           />
           <div className="packages-hero">
@@ -43,7 +43,7 @@ const Packages = (props) => {
                 <header className="packages-header">
                   <img
                     alt="image"
-                    src="/Images/ewa_photo_2bd-500w.png"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="packages-image1"
                   />
                   <h1 className="packages-heading">Booking an Appointment</h1>
@@ -156,7 +156,7 @@ const Packages = (props) => {
             <div id="price-discounted" className="packages-container06">
               <img
                 alt="image"
-                src="/Images/15-500h.png"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="packages-image3"
               />
               <span className="packages-text21">15</span>
@@ -212,7 +212,7 @@ const Packages = (props) => {
             <div className="packages-container08">
               <img
                 alt="image"
-                src="/Images/20-500h.png"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="packages-image4"
               />
               <span className="packages-text31">20</span>
@@ -283,7 +283,7 @@ const Packages = (props) => {
             <div className="packages-container10">
               <img
                 alt="image"
-                src="/Images/30-500h.png"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="packages-image5"
               />
               <span className="packages-text43">

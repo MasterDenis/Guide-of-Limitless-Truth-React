@@ -1,0 +1,195 @@
+.package-card-package-card {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  min-width: 344.98px;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  max-height: auto;
+  min-height: 642.02px;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: 20px;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  justify-content: flex-start;
+  background-color: #FFFFFF;
+}
+.package-card-header {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.package-card-pasted-image {
+  width: 51px;
+  height: 31px;
+  margin-right: var(--dl-space-space-unit);
+}
+.package-card-text {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 32px;
+  align-self: center;
+  text-align: left;
+  font-family: "Inter";
+  line-height: 48px;
+}
+.package-card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.package-card-text01 {
+  color: rgb(169, 169, 170);
+  width: auto;
+  height: auto;
+  font-size: 1.4em;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
+  font-family: "NeverMind Rounded";
+  margin-bottom: var(--dl-space-space-unit);
+}
+.package-card-list-1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.package-card-pasted-image1 {
+  width: 25px;
+  height: 24px;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.package-card-text04 {
+  color: rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  font-size: 1.4em;
+  align-self: flex-start;
+  font-family: "NeverMind Rounded";
+}
+.package-card-list-2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.package-card-pasted-image2 {
+  width: 25px;
+  height: 24px;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.package-card-text07 {
+  color: rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  font-size: 1.4em;
+  align-self: flex-start;
+  font-family: "NeverMind Rounded";
+}
+.package-card-list-3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.package-card-pasted-image3 {
+  width: 25px;
+  height: 24px;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.package-card-text10 {
+  color: rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  font-size: 1.4em;
+  align-self: flex-start;
+  font-family: "NeverMind Rounded";
+}
+.package-card-container1 {
+  height: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.package-card-divider {
+  flex: 0 0 auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  border-color: #A9A9AA;
+  border-style: dashed;
+  border-width: 5px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.package-card-text13 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.package-card-button {
+  flex: 0 0 auto;
+  width: 70%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: 12px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: #464F4B;
+}
+.package-card-text14 {
+  color: rgb(255, 255, 255);
+  font-size: 2.4em;
+}

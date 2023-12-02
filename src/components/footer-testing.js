@@ -22,7 +22,7 @@ const FooterTesting = (props) => {
           >
             <img
               alt="image"
-              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/29c42592-98b6-4899-b3ec-f7dc6bb82412?org_if_sml=14442"
+              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               className="footer-testing-image1"
             />
           </a>
@@ -34,7 +34,7 @@ const FooterTesting = (props) => {
           >
             <img
               alt="image"
-              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/c30203ea-b25d-49d9-a305-95468c0e94e6?org_if_sml=13296"
+              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               className="footer-testing-image2"
             />
           </a>

@@ -26,18 +26,15 @@ const ClassicTarot = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name3"></Navbar>
-      <div className="classic-tarot-container1">
-        <div className="classic-tarot-container2"></div>
-      </div>
       <section className="classic-tarot-details-description-section">
-        <div className="classic-tarot-container3">
+        <div className="classic-tarot-container1">
           <img
             alt="image"
-            src="/Images/hibiscus-photo-spiritual-session3c-400w.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="classic-tarot-image"
           />
           <div className="classic-tarot-hero">
@@ -46,7 +43,7 @@ const ClassicTarot = (props) => {
                 <header className="classic-tarot-header">
                   <img
                     alt="image"
-                    src="/Images/hibiscus-photo-spiritual-session3c-400w.png"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="classic-tarot-image1"
                   />
                   <h1 className="classic-tarot-heading">
@@ -127,9 +124,6 @@ const ClassicTarot = (props) => {
           Book Now
         </a>
       </section>
-      <div className="classic-tarot-container4">
-        <div className="classic-tarot-container5"></div>
-      </div>
       <div className="classic-tarot-testimonials-button-section">
         <div className="classic-tarot-testimonials-button-container">
           <Link to="/testimonials" className="classic-tarot-navlink">
@@ -141,9 +135,6 @@ const ClassicTarot = (props) => {
             </div>
           </Link>
         </div>
-      </div>
-      <div className="classic-tarot-container6">
-        <div className="classic-tarot-container7"></div>
       </div>
       <Footer rootClassName="footer-root-class-name3"></Footer>
     </div>

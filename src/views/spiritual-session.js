@@ -26,7 +26,7 @@ const SpiritualSession = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c444808c-576c-421e-b40a-c4e3bc218822/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/94890b22-8f85-4b4c-a613-cb52b2e58deb/737323fa-e3a4-4171-958a-f75be52ed3e9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name4"></Navbar>
@@ -34,7 +34,7 @@ const SpiritualSession = (props) => {
         <div className="spiritual-session-container1">
           <img
             alt="image"
-            src="/Images/hibiscus-photo-spiritual-session.png.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="spiritual-session-image"
           />
           <div className="spiritual-session-hero">
@@ -43,7 +43,7 @@ const SpiritualSession = (props) => {
                 <header className="spiritual-session-header">
                   <img
                     alt="image"
-                    src="/Images/hibiscus-photo-spiritual-session.png.png"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="spiritual-session-image1"
                   />
                   <h1 className="spiritual-session-heading">
@@ -127,7 +127,7 @@ const SpiritualSession = (props) => {
         <div className="spiritual-session-container2">
           <img
             alt="image"
-            src="/Images/hibiscus-photo-spiritual-session.png.png"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="spiritual-session-image2"
           />
           <div className="spiritual-session-hero1">
@@ -136,7 +136,7 @@ const SpiritualSession = (props) => {
                 <header className="spiritual-session-header1">
                   <img
                     alt="image"
-                    src="/Images/hibiscus-photo-spiritual-session.png.png"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="spiritual-session-image3"
                   />
                   <h1 className="spiritual-session-heading1">
@@ -220,9 +220,6 @@ const SpiritualSession = (props) => {
           Book Now
         </a>
       </section>
-      <div className="spiritual-session-container3">
-        <div className="spiritual-session-container4"></div>
-      </div>
       <div className="spiritual-session-testimonials-button-section">
         <div className="spiritual-session-testimonials-button-container">
           <Link to="/testimonials" className="spiritual-session-navlink">
@@ -234,9 +231,6 @@ const SpiritualSession = (props) => {
             </div>
           </Link>
         </div>
-      </div>
-      <div className="spiritual-session-container5">
-        <div className="spiritual-session-container6"></div>
       </div>
       <Footer rootClassName="footer-root-class-name4"></Footer>
     </div>

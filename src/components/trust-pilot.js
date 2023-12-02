@@ -8,11 +8,13 @@ import './trust-pilot.css'
 const TrustPilot = (props) => {
   return (
     <div className={`trust-pilot-container ${props.rootClassName} `}>
-      <div className="trust-pilot-code-embed">
-        <Script
-          html={`<iframe width="100%" height="100%" src="https://www.trustpilot.com/review/guideoflimitlesstruth.com" title="GOLT Reviews"></iframe>`}
-          className=""
-        ></Script>
+      <div className="trust-pilot-container1">
+        <div className="trust-pilot-container2">
+          <Script
+            html={`<iframe width="100%" height="100%" src="https://www.trustpilot.com/review/guideoflimitlesstruth.com" title="GOLT Reviews"></iframe>`}
+            className=""
+          ></Script>
+        </div>
       </div>
     </div>
   )

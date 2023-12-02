@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom'
 
 import './style.css'
 import BLANKPAGE from './views/blank-page'
@@ -12,11 +17,12 @@ import Packages from './views/packages'
 import Page from './views/page'
 import Home from './views/home'
 import SpiritualSession from './views/spiritual-session'
+import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <Switch>
         <Route component={BLANKPAGE} exact path="/blank-page" />
         <Route component={ClassicTarot} exact path="/classic-tarot" />
         <Route component={TESTER} exact path="/tester" />
@@ -26,7 +32,9 @@ const App = () => {
         <Route component={Page} exact path="/page" />
         <Route component={Home} exact path="/" />
         <Route component={SpiritualSession} exact path="/spiritual-session" />
-      </div>
+        <Route component={NotFound} path="**" />
+        <Redirect to="**" />
+      </Switch>
     </Router>
   )
 }
