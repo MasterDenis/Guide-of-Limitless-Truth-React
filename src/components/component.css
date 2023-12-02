@@ -77,6 +77,9 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.app-component-link1 {
+  display: contents;
+}
 .app-component-container7 {
   flex: 0 0 auto;
   width: var(--dl-size-size-xlarge);
@@ -88,6 +91,7 @@
   margin-right: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
+  text-decoration: none;
   background-image: linear-gradient(90deg, rgba(76, 85, 76, 0.47) 0.00%,rgba(0, 0, 0, 0.47) 99.00%);
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);

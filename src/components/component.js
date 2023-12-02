@@ -18,9 +18,11 @@ const AppComponent = (props) => {
             </a>
           </div>
           <div className="app-component-container6">
-            <div className="app-component-container7">
-              <span className="app-component-text1">{props.text1}</span>
-            </div>
+            <a href="#navbar-second" className="app-component-link1">
+              <div className="app-component-container7">
+                <span className="app-component-text1">{props.text1}</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
